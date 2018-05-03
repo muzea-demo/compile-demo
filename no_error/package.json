@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "license": "GPL-2.0",
   "scripts": {
-    "build": "tsc src/index.ts"
+    "build": "tsc src/index.ts --outDir ./dist"
   },
   "dependencies": {
     "@types/core-js": "0.9.36",
