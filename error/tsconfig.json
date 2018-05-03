@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "strictNullChecks": false,
+      "target": "es6",
+      "skipLibCheck": true,
+      "lib": [
+          "dom",
+          "es7",
+          "esnext"
+      ],
+      "allowSyntheticDefaultImports": true,
+      "outDir": "./dist"
+  },
+  "exclude": [
+      "node_modules"
+  ]
+}

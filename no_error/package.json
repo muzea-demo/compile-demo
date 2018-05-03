@@ -1,0 +1,16 @@
+{
+  "name": "compile-demo",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "GPL-2.0",
+  "scripts": {
+    "build": "tsc src/index.ts"
+  },
+  "dependencies": {
+    "@types/core-js": "0.9.36",
+    "@types/node": "7.0.7",
+    "@types/superagent": "^3.5.8",
+    "superagent": "^3.8.3",
+    "typescript": "^2.8.3"
+  }
+}
